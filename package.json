@@ -1,0 +1,29 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev node app.js",
+    "test": "cross-env NODE_ENV=test mocha test/test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.8.2",
+    "sinon": "^19.0.2",
+    "sinon-chai": "^4.0.0",
+    "supertest": "^7.0.0"
+  }
+}
